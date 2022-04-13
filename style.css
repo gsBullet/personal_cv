@@ -1,0 +1,242 @@
+body{
+    background-color: #242D32;
+    position: relative;
+}
+header{
+    color: seagreen;
+    padding-left: 70px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.navbar{
+    height: 400px;
+    background-color: seagreen;
+    top: 0;
+    right: 100px;
+    position: absolute;
+    z-index: 999; 
+    
+}
+
+
+.navbar>ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px;
+    background-color: rgb(103, 184, 92);
+}
+
+.navbar>ul>li{
+    list-style-type: none;
+    position: relative;
+    padding-top: 20px;
+    
+}
+.navbar>ul>li>button{
+    background-color: rgb(103, 184, 92);
+    border: none;
+    color: azure;
+}
+.navbar>ul>li>a{
+    font-size: 30px;
+    color: rgb(255, 240, 240);   
+}
+
+
+.navbar>ul>li>ul{
+    list-style-type: none;
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    padding-left: 0;
+    display: none;
+}
+.navbar>ul>li:hover ul{
+    display: inline-block;
+}
+
+.navbar>ul>li>ul>li{
+    width: 100px;
+    text-align: right;
+}
+.navbar>ul>li>ul>li>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: wheat;
+    font-weight: 800;
+}
+.navbar>ul>li:hover{
+    border-left: coral;
+}
+
+.photofiture{
+    width: 300px;
+    height: 550px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: absolute;
+    left: 250px;
+}
+.photofiture>.r1{
+    border: 2px solid #00A652;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.photofiture>.r1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.photofiture>.r1>.r2{
+    border: 7px solid #00A652;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+}
+.photofiture>.r1>.r2{
+    position: absolute;
+    top: 15px;
+    left: 17px;
+    
+}
+.photofiture>.r1>.r2>.r3{
+    border: 7px solid #3AB54A;
+    border-radius: 50%;
+    width: 187px;
+    height: 187px;
+    
+}
+.photofiture>.r1>.r2>.r3>.r4{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 99%;
+    height: 99%;
+    background-color:royalblue ;
+    
+}
+.photofiture>.r1>.r2>.r3>.r4>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.namedetails{
+    /* position: absolute; */
+   padding-top: 290px;
+    
+
+}
+.namedetails>h3{
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+     margin: 0;
+}
+.namedetails>h5{
+    text-align: center;
+    color: #00A652;
+    margin: 0;
+    padding: 10px;
+}
+.namedetails>ul{
+    list-style-type: none;
+   
+}
+.namedetails>ul>li{
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+.namedetails>ul>li>a{
+    border-radius: 50%;
+    background-color: #000000;
+    padding: 5px;
+    color: azure;
+
+}
+.namedetails>ul>li>a:hover{
+    background-color: #3AB54A;
+}
+.profile{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 400px;
+    color: azure;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.profile h2{
+    padding-left: 60px;
+}
+.address>ul>{
+    list-style-type: none;
+}
+.address>ul>li{
+    position: relative;
+    list-style-type: none;
+    padding: 10px;
+}
+.address>ul>li>ul{
+    list-style-type: none;
+    position: absolute;
+    top: 10px;
+}
+.address>ul>li>ul>li{
+    display: inline-block;
+   
+}
+.address>ul>li>ul>li>.type{
+    width: 190px;
+}
+.address>.button{
+    padding-left: 50px;
+}
+
+.address>.button>button{
+    background-color: #000000;
+    color: azure;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-color: #000000;
+    font-size: 12px;
+    
+}
+.address>.button>button>a{
+    text-decoration: none;
+    color: azure;
+}
+.address>.button>button:hover{
+    background-color: #00A652;
+   
+}
+footer{
+    position: absolute;
+    top: 670px;
+    left: 245px;
+    color: azure;
+}
+footer>ul{
+    display: inline-block;
+    padding-left: 400px;
+}
+footer>ul>li{
+    display: inline-block;
+    padding: 5px;
+    
+}
+footer>ul>li>a{
+    padding: 5px;
+    color: azure;
+    background-color: #000000;
+    border-radius: 50%;
+}
+footer>ul>li>a:hover{
+    background-color: #3AB54A;
+}
